@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "ru.iu3.fclient.app-mergeDebugResources-34:/layout/activity_main.xml",
+        "source": "ru.iu3.fclient.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/vladimir/.gradle/daemon/8.4/ru.iu3.fclient.app-mergeDebugResources-34:/layout/activity_pinpad.xml",
+        "source": "/home/vladimir/.gradle/daemon/8.4/ru.iu3.fclient.app-main-37:/layout/activity_pinpad.xml"
+    },
+    {
+        "merged": "/home/vladimir/.gradle/daemon/8.4/ru.iu3.fclient.app-mergeDebugResources-34:/layout/activity_main.xml",
+        "source": "/home/vladimir/.gradle/daemon/8.4/ru.iu3.fclient.app-main-37:/layout/activity_main.xml"
+    }
+]

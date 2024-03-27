@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/vladimir/AndroidStudioProjects/fclient/app/.cxx/Debug/2t1c4y3r/x86_64",
+  "command": "/home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --sysroot=/home/vladimir/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dfclient_EXPORTS -I/home/vladimir/AndroidStudioProjects/libs/spdlog/spdlog/include -I/home/vladimir/AndroidStudioProjects/libs/mbedtls/mbedtls/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/fclient.dir/native-lib.cpp.o -c /home/vladimir/AndroidStudioProjects/fclient/app/src/main/cpp/native-lib.cpp",
+  "file": "/home/vladimir/AndroidStudioProjects/fclient/app/src/main/cpp/native-lib.cpp"
+}
+]

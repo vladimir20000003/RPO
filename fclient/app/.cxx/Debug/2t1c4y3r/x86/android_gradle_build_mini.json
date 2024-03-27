@@ -1,0 +1,29 @@
+{
+  "buildFiles": [
+    "/home/vladimir/AndroidStudioProjects/fclient/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/vladimir/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/vladimir/AndroidStudioProjects/fclient/app/.cxx/Debug/2t1c4y3r/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/vladimir/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/vladimir/AndroidStudioProjects/fclient/app/.cxx/Debug/2t1c4y3r/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "fclient::@6890427a1f51a3e7e1df": {
+      "artifactName": "fclient",
+      "abi": "x86",
+      "output": "/home/vladimir/AndroidStudioProjects/fclient/app/build/intermediates/cxx/Debug/2t1c4y3r/obj/x86/libfclient.so",
+      "runtimeFiles": [
+        "/home/vladimir/AndroidStudioProjects/fclient/app/src/main/nativeLibs/x86/libmbedcrypto.so"
+      ]
+    }
+  }
+}

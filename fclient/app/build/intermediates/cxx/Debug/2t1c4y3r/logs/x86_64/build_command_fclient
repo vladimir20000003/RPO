@@ -1,0 +1,4 @@
+/home/vladimir/Android/Sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /home/vladimir/AndroidStudioProjects/fclient/app/.cxx/Debug/2t1c4y3r/x86_64 \
+  fclient
