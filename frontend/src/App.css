@@ -1,0 +1,147 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #87CEEB;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Общие стили для SideBar */
+.my-sidebar {
+  position: fixed;
+  top: 0;
+  background: #ECF0F1;
+  color: #ECF0F1;
+  transition: all 0.3s ease;
+}
+
+/* Стили для раскрытого бокового меню */
+.my-sidebar.expanded {
+  min-width: 200px;
+  max-width: 200px;
+}
+
+/* Стили для закрытого бокового меню */
+.my-sidebar.collapsed {
+  min-width: 62px;
+  max-width: 62px;
+}
+
+/* Дополнительные стили для бокового меню */
+.my-sidebar-content {
+  padding: 20px;
+}
+
+.my-sidebar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.my-sidebar a.active {
+  font-weight: bold;
+}
+
+/* Стили для списка стран */
+.country-item {
+  color: #333; /* Цвет текста для списка стран */
+  margin-bottom: 10px;
+}
+.country-item {
+  display: flex; /* Используем flexbox для выравнивания элементов в строку */
+  justify-content: space-between; /* Распределяем элементы равномерно по горизонтали */
+  align-items: center; /* Выравниваем элементы по вертикали по центру */
+  padding: 10px 0; /* Добавляем немного отступов сверху и снизу */
+}
+
+.country-item div {
+  display: flex; /* Используем flexbox внутри элемента списка */
+  align-items: center; /* Выравниваем элементы по вертикали по центру */
+}
+
+.edit-btn,
+.delete-btn {
+  margin-left: 10px; /* Добавляем немного отступа между кнопками */
+}
+
+.edit-icon {
+  width: 24px; /* Желаемая ширина */
+  height: auto; /* Автоматически подстраивает высоту */
+}
+
+.selected {
+  background-color: #f0f0f0; /* Цвет фона для выделенных стран */
+}
+
+.delete-icon {
+  width: 24px; /* Желаемая ширина */
+  height: auto; /* Автоматически подстраивает высоту */
+}
+.pagination-link {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  background-color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination-link:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Стили для художников и стран */
+.artists-title,
+.countries-title {
+  color: #000080; /* Замените на ваш желаемый синий темно цвет */
+}
+.sidebar-link {
+  color: #000080; /* Синий темный цвет */
+  text-decoration: none; /* Убираем подчеркивание у ссылок */
+  padding: 10px; /* Добавляем отступы для удобства нажатия */
+  display: flex; /* Используем flexbox для выравнивания иконки и текста внутри ссылок */
+  align-items: center; /* Выравниваем элементы по вертикали */
+}
+
+.sidebar-link:hover {
+  background-color: #f0f0f0; /* Цвет фона при наведении */
+}
+
+.sidebar-text {
+  color: #000080;
+  margin-left: 10px; /* Добавляем отступ между иконкой и текстом */
+}
+
